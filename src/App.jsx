@@ -6,8 +6,6 @@ const ModalVideo = dynamic(import("react-modal-video"), {
     ssr: false,
 });
 
-
-
 function App() {
     const [isOpen, setOpen] = useState(false);
     return (
@@ -30,3 +28,4 @@ function App() {
 }
 
 export default App;
+
